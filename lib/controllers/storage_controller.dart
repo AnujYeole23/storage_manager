@@ -1,7 +1,6 @@
-import 'dart:io';
-
 import 'package:path_provider/path_provider.dart';
 import 'package:storage_manager/core/local_file.dart';
+import 'package:universal_io/io.dart';
 
 // TODO: May need to make this an abstract class, and have implementations for
 // web and native, like the local file
